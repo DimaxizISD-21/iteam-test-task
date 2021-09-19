@@ -1,0 +1,12 @@
+.score {
+  color: #ffff;
+
+  &__title {
+    font-size: 40px;
+  }
+
+  &__player {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+}

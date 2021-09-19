@@ -1,0 +1,13 @@
+.square {
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #44425e;;
+  cursor: pointer;
+
+  &__img {
+    width: 100%;
+    padding: 20px;
+  }
+}

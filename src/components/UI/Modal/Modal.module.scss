@@ -1,0 +1,70 @@
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 0;
+  display: none;
+  transition: background-color .3s linear;
+  background-color: rgba(0, 0, 0, .3); //rgba(225, 229, 242, .5); //#e1e5f2;
+
+  &__active {
+    height: 100%;
+    color: #000;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__wrapper {
+    max-width: 536px;
+    //background-color: #545f7d;
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+  }
+
+  &__title {
+    text-align: center;
+  }
+
+  &__info {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+    &__center {
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  &__btn {
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .player_1 {
+    background: #0d6efd;
+  }
+
+  .player_2 {
+    background: #dc3545;
+  }
+  
+  .player {
+    background: #212529;
+  }
+
+  .btn__restart {
+    background: #212529;
+  }
+}

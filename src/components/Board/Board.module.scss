@@ -1,0 +1,67 @@
+.board {
+  min-width: 536px;
+  margin-right: 35px;
+  position: relative;
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    background-color: #a855c1;
+  }
+
+  &__crossedLine {
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    background-color: #af3d38;
+  }
+
+  .horizontalTop {
+    top: 16%;
+    left: 0%;
+  }
+
+  .horizontalCenter {
+    top: 49%;
+    left: 0%;
+  }
+
+  .horizontalBottom {
+    top: 83%;
+    left: 0%;
+  }
+
+  .verticalLeft {
+    transform: rotate(90deg);
+    left: -34%;
+    top: 49%;
+  }
+
+  .verticalCenter {
+    transform: rotate(90deg);
+    left: 0%;
+    top: 49%;
+  }
+
+  .verticalRight {
+    transform: rotate(90deg);
+    left: 34%;
+    top: 49%;
+  }
+
+  .diagonalFirst {
+    transform: rotate(45deg);
+    width: 140%;
+    top: 49%;
+    left: -20%;
+  }
+
+  .diagonalSecond {
+    transform: rotate(-45deg);
+    width: 140%;
+    top: 49%;
+    left: -20%;
+  }
+}
+
