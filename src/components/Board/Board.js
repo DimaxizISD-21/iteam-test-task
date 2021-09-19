@@ -34,13 +34,13 @@ const Board = ({squares, winPos, handleClickSquare}) => {
         setCrossedLineStyle(`${s.diagonalSecond}`);
         break;
       default:
-        return
+        return;
     }
-  }, [winPos])
+  }, [winPos]);
 
   useEffect(() => {
-    checkCrossedLine()
-  }, [checkCrossedLine, winPos])
+    checkCrossedLine();
+  }, [checkCrossedLine]);
 
   return (
     <div className={s.board}>
