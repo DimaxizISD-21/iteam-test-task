@@ -4,7 +4,7 @@
 При написаниии, вы должны показать чистоту кода и работу с компонентами и их взаимодействие
 друг с другом.
 
-[<img src="E:\Програмирование\Frontend-testtask\iteam-tic-tac-toe\result-task.png" width="700"/>](E:\Програмирование\Frontend-testtask\iteam-tic-tac-toe\result-task.png)
+[<img src="https://github.com/DimaxizISD-21/iteam-test-task/blob/main/result-task.png" width="700"/>](https://github.com/DimaxizISD-21/iteam-test-task/blob/main/result-task.png)
  - Нужно стилизовать игру также как на картинке.
  - При входе на страницу, вывести модальное окно для выбора имени игрока.
  - Игра должна содержать счетчик победителей.
